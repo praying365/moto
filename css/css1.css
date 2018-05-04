@@ -1,0 +1,81 @@
+body,img {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu{
+	width: 1920px;
+	height: 634px;
+	background: #f2f2f2;
+	padding: 100px 160px 100px 160px;
+}
+.slider{
+	width: 1600px;
+	height: 434px;
+	/*background: #1B6D85;*/
+}
+
+.left001 {
+	width: 250px;
+	height: 434px;
+	float: left;
+	padding-left: 30px;
+}
+.htext {
+	padding-top: 30px;
+	font-size: 36px;
+}
+.right001 {
+	position: relative;
+	width: 1320px;
+	height: 450px;
+	/*background: #D0E9C6;*/
+	float: left;
+	overflow: hidden;
+}
+
+.item {
+	width: 1320px;
+	height: 450px;
+}
+
+
+.row img {
+	margin-left: 30px;
+	width: 300px;
+	height: 434px;
+	float: left;
+	
+}
+.row img:hover {
+	box-shadow: 0px 5px 20px #888888;
+	
+}
+
+
+
+
+
+.on {
+	width: 130px;
+	height: 60px;
+	background: #D0E9C6;
+	margin-top: 30px;
+}
+
+#move1{
+	cursor: pointer;
+	float: left;
+	width: 65px;
+	height: 60px;
+	background: url(../img/onoff.png) no-repeat;
+}
+#move2 {
+	cursor: pointer;
+	float: left;
+	background: url(../img/onoff.png);
+	background-position: -65px -60px;
+	width: 65px;
+	height: 60px;
+}
